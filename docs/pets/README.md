@@ -37,7 +37,6 @@ from sdk.models import operations
 
 s = sdk.SDK()
 
-
 req = operations.ListPetsRequest(
     limit=548814,
 )
@@ -59,7 +58,6 @@ import sdk
 from sdk.models import operations
 
 s = sdk.SDK()
-
 
 req = operations.ShowPetByIDRequest(
     pet_id='provident',

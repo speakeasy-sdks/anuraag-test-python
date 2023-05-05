@@ -21,6 +21,7 @@ class Pets:
         self._sdk_version = sdk_version
         self._gen_version = gen_version
         
+    
     def create_pets(self) -> operations.CreatePetsResponse:
         r"""Create a pet"""
         base_url = self._server_url
@@ -44,6 +45,7 @@ class Pets:
 
         return res
 
+    
     def list_pets(self, request: operations.ListPetsRequest) -> operations.ListPetsResponse:
         r"""List all pets"""
         base_url = self._server_url
@@ -70,6 +72,7 @@ class Pets:
 
         return res
 
+    
     def show_pet_by_id(self, request: operations.ShowPetByIDRequest) -> operations.ShowPetByIDResponse:
         r"""Info for a specific pet"""
         base_url = self._server_url
