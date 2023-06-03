@@ -103,3 +103,11 @@ Based on:
 - Speakeasy CLI 1.40.3 (2.34.7) https://github.com/speakeasy-api/speakeasy
 ### Releases
 - [PyPI v1.8.0] https://pypi.org/project/test-petstore/1.8.0 - .
+
+## 2023-06-03 00:31:36
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 https://prod.speakeasyapi.dev/v1/apis/test-petstore/version/1.0.0/schema/download
+- Speakeasy CLI 1.43.0 (2.35.3) https://github.com/speakeasy-api/speakeasy
+### Releases
+- [PyPI v1.9.0] https://pypi.org/project/test-petstore/1.9.0 - .
